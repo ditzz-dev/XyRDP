@@ -1,6 +1,6 @@
 {
   "active": true,
-  "hostname": "adit-3",
+  "hostname": "adit-4",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
   "os_style": "Native Windows",
@@ -13,13 +13,13 @@
   "rdp_user": "adit",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-11-18T17:00:50Z",
-  "expires_at": "2026-11-18T22:42:50Z",
+  "started_at": "2026-11-18T22:55:21Z",
+  "expires_at": "2026-11-19T04:37:21Z",
   "duration_menit": 342,
-  "run_id": "44353611012",
+  "run_id": "44415946333",
   "run_attempt": "1",
-  "run_number": "3",
-  "run_url": "https://github.com/ditzz-dev/XyRDP/actions/runs/44353611012",
+  "run_number": "4",
+  "run_url": "https://github.com/ditzz-dev/XyRDP/actions/runs/44415946333",
   "mode": "bersih+win10",
   "runtimes": {
     "vc2022x64": "sudah ada",
@@ -39,34 +39,34 @@
   },
   "persist": {
     "profile": "C:\\Users\\adit",
-    "restored": true,
+    "files": 1871,
     "source": "xyrdp-state.7z.enc",
-    "files": 1866
+    "restored": true
   },
   "storage": {
     "status": "ok",
     "mode": "boost-full",
-    "before_gb": 25.68,
-    "after_gb": 43.22,
-    "gained_gb": 17.54,
+    "before_gb": 25.49,
+    "after_gb": 43.09,
+    "gained_gb": 17.6,
     "removed_targets": 34,
     "drives": [
       {
-        "free_gb": 43.22,
-        "used_gb": 106.67,
         "letter": "C",
-        "size_gb": 149.89
+        "free_gb": 43.09,
+        "size_gb": 149.89,
+        "used_gb": 106.8
       },
       {
-        "free_gb": 219.86,
-        "used_gb": 0.13,
         "letter": "D",
-        "size_gb": 219.98
+        "free_gb": 219.86,
+        "size_gb": 219.98,
+        "used_gb": 0.13
       }
     ],
     "game_dir": "D:\\Games (disarankan untuk GTA)",
     "note": "Cleanup selesai. gained_gb adalah perubahan ruang aktual, bukan kapasitas yang dijanjikan. Target terkunci bisa tersisa.",
-    "updated_at": "2026-11-18T17:09:48.4218882Z"
+    "updated_at": "2026-11-18T23:07:24.7621301Z"
   },
   "fps_boost": {
     "status": "ok",
@@ -84,7 +84,7 @@
     "applied_count": 8,
     "elapsed_sec": 2.0,
     "note": "Tweak rendering RDP & scheduler OS. Tidak menaikkan FPS game 3D tanpa GPU fisik; Mesa3D/WARP tetap dipakai.",
-    "updated_at": "2026-11-18T17:09:50.8404792Z"
+    "updated_at": "2026-11-18T23:07:27.1779098Z"
   },
   "win10": {
     "look": "ok",
@@ -95,53 +95,53 @@
     "note": "Tampilan Windows 10 (UI Windows Server 2022 = kernel/UI Windows 10 21H2)"
   },
   "media": {
-    "audio_output": "rdp_playback_enabled",
+    "microphone": "rdp_capture_enabled",
     "wallpaper": "xyverse_configured_for_user_logon",
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
-    "microphone": "rdp_capture_enabled"
+    "audio_output": "rdp_playback_enabled"
   },
   "grafis": {
-    "mesa": "26.2.7",
-    "path": "C:\\XyRDP\\grafis\\mesa-x64",
-    "vulkan": "lavapipe 1.3 (CPU)",
     "adapters": "Microsoft Hyper-V Video",
+    "mesa": "26.2.7",
     "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)",
-    "mode": "software"
+    "path": "C:\\XyRDP\\grafis\\mesa-x64",
+    "mode": "software",
+    "vulkan": "lavapipe 1.3 (CPU)"
   },
   "games": {
-    "ets2": {
-      "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1",
-      "status": "ready"
-    },
-    "roblox": {
-      "catatan": "Instalasi resmi Roblox siap. VM dapat ditolak anti-cheat Roblox; tidak ada spoofing BIOS/bypass.",
-      "status": "installer_ready",
-      "launcher": "C:\\Games\\Roblox\\Launch-Roblox-AntiVM.ps1"
+    "memu": {
+      "status": "ready",
+      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1"
     },
     "blender": {
-      "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1",
-      "status": "ready"
+      "status": "ready",
+      "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1"
     },
     "fivem": {
-      "sound": true,
-      "status": true
+      "status": true,
+      "sound": true
     },
     "minecraft_java": {
       "opengl46": false,
-      "tlauncher_jar": true,
-      "official_exe": true,
       "status": "ready",
-      "prismlauncher": true
+      "prismlauncher": true,
+      "official_exe": true,
+      "tlauncher_jar": true
     },
-    "memu": {
-      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1",
-      "status": "ready"
+    "ets2": {
+      "status": "ready",
+      "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1"
+    },
+    "roblox": {
+      "status": "installer_ready",
+      "catatan": "Instalasi resmi Roblox siap. VM dapat ditolak anti-cheat Roblox; tidak ada spoofing BIOS/bypass.",
+      "launcher": "C:\\Games\\Roblox\\Launch-Roblox-AntiVM.ps1"
     }
   },
   "tools_hub": {
     "auto_start": true,
-    "installed": true,
-    "exe": "C:\\XyRDP\\tools\\XyDeskDashboard.exe"
+    "exe": "C:\\XyRDP\\tools\\XyDeskDashboard.exe",
+    "installed": true
   },
   "xydesk": {
     "host": "ok",
@@ -161,21 +161,21 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
-    "tailscale": {
-      "magicdns": "adit-4.taildfa580.ts.net.",
-      "hostname": "adit",
-      "status": "ok",
-      "ip": "100.109.209.99",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
-    },
     "mode": "tailscale",
     "tunnel": {
       "port": 3389,
-      "host": "100.109.209.99",
-      "address": "100.109.209.99:3389",
+      "address": "100.114.196.114:3389",
+      "host": "100.114.196.114",
       "status": "ok",
       "outside": "tailscale",
       "selftest": "ok"
+    },
+    "tailscale": {
+      "ip": "100.114.196.114",
+      "status": "ok",
+      "magicdns": "adit-5.taildfa580.ts.net.",
+      "hostname": "adit",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
     }
   },
   "extras": {
